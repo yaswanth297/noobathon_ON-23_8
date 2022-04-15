@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NITW ONLINE MESS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+        <style type='text/css'>
+            body {width:100%;}
+        </style>
+
+        <style>
+
+
+
+
+             button{
+                font-family:Arial, Helvetica, sans-serif;
+                margin-top: 1%;
+                margin-left: 80%;
+                /* margin-bottom: 200px; */
+                font-size: large;
+                background-color: skyblue;
+                border-radius: 10px;
+            }
+
+            table{
+                margin: 1%;
+                height: auto;
+                width: auto;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+
+            }
+
+            input[type=text]:focus {
+                background-color: lightblue;
+                /* margin-top: 100px; */
+            }
+            input[type=text] {
+                transition: width 0.4s ease-in-out;
+            }
+
+            input[type=text]:focus {
+                 width: 20%;
+            }
+
+            
+
+            h3{
+                /* margin: 2px; */
+                margin-left: 30%;
+                margin-bottom:3% ;
+                font-size:xx-large;
+                background-color:lightskyblue;
+                width: 15%;
+                height: auto;
+            }
+
+            h4{
+                margin-left: 30%;
+                margin-bottom: 3%;
+                font-size:xx-large;
+                background-color: lightskyblue;
+                width: 54%;
+                height: auto;
+            }
+
+            h5{
+                margin-left: 6%;
+                font-size:x-large;
+                font-style: italic;
+                margin-bottom: 2%;
+                background-color: lightskyblue;
+                width: 14%;
+                height: auto;
+            }
+            h6{
+                margin-top: 4%;
+                margin-left: 6%;
+                font-size:x-large;
+                font-style: italic;
+                margin-bottom: 2%;
+                background-color: lightskyblue;
+                width: 30%;
+                height: auto;
+            }
+
+            h2{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color:lightskyblue;
+                width: 10%;
+                height: auto;            
+            }
+
+            .a{
+                background-color: black;
+                font-weight: bolder; 
+                font-family:verdana;
+                margin: auto;
+                text-align: center;
+                color: white;
+             }
+
+            .b{
+                background-color: lightskyblue;
+                width: 93px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding-bottom:1px ;
+                margin-bottom:1px;
+                margin-top: 15px                
+            }
+
+            .c{
+                float:left;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                /* background-color:rgb(250, 134, 114); */
+                font:medium;
+                /* padding-top:1; */
+                margin-bottom: 4%;
+                margin-top: 1%;
+                width: 50%;
+                height: 80px;
+                margin-right: auto;
+                /* border: solid red; */
+            }
+            .d{
+                border-style:solid;
+                height: auto;
+                margin-top: 1%;
+                width:48%;
+                float:left;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: whitesmoke;
+                border-radius: 15px;
+                /* margin-bottom: 1; */
+
+                
+            }
+            .e{
+                border-style:solid;
+                height: auto;
+                margin-top: 1%;
+                width:48%;
+                float:right;  
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: whitesmoke;  
+                border-radius: 15px; 
+                /* margin-bottom: auto;      */
+            }
+            .f{
+                border-style:solid;
+                height: 100%;
+                margin-top: 1%;
+                width:48%;
+                float:right;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: whitesmoke; 
+                border-radius: 15px;         
+            }
+            .g{
+                border-style:solid;
+                height: 100%;
+                margin-top: 1%;
+                /* margin: auto; */
+                /* margin-bottom: 5%; */
+                width:48%;
+                float:left; 
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: whitesmoke;  
+                border-radius: 15px;       
+            }
+
+            .h{
+                background-color: black;
+            }
+
+            .login{
+                border-style:solid;
+                height: 100%;
+                width:50%;
+                height: auto;
+                float:right;   
+                padding: 1%;
+                margin-top: 1%; 
+                margin-bottom: 1%;     
+            }
+
+
+            body{
+                background-color: rgb(170, 192, 211);
+            }
+
+
+
+
+
+  
+
+ 
+    </style>
+
+    <body>
+        <h1 class="a">NATIONAL INSTITUTE OF TECHNOLOGY WARANGAL</h1>
+        <div class="h">
+
+        <img src="WhatsApp Image 2022-04-14 at 7.27.41 PM.jpeg" width="auto" height="auto" style="width:100%"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </div>
+
+        <div class="z">       
+        <h2 class="b"><u>ABOUT</u></h2>
+        <p class="c">National institute of technology,Warangal offers a very nutrutios and healthy diets to it's students from all over India.There are four private messes spread across the campus.The messes are alloted to students based on their year of study to avoid crowds.Students must also pay the fee on daily basis.<br><i>For any quiries and complaints ,email messincharge@nitw.ac.in</i></p>
+        </div>
+
+        <div class="login">
+            <h2><u>login </u></h2>
+            <form action="">
+                Role No:<input type="text">
+                Password:<input type="text">        
+                <input type="submit" value="submit">
+            </form>
+            
+        </div>
+
+
+        <h1 class="y"><u>MESSES</u></h1>
+
+
+        <div class="d">
+            <!-- <img src="WhatsApp Image 2022-04-14 at 7.16.43 PM.jpeg" height="100px" width="100px"> -->
+            <h3>IFC-A</h3>
+            <p>Mess exculsively for 1 year b-tech and m-tech students </p>
+            <p>Students are required to pay the mess fee on daily-basis </p>
+            <p><b>NOTE :-</b>Special items mentioned below are chargable</p>
+
+            <hr>
+
+
+            <h5>MENU :</h5>
+            <table>
+                <tr>
+                    <th>DAY</th>
+                    <th>MORNING</th>
+                    <th>AFTERNOON</th>
+                    <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Puri,Aloo Curry</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sambar,Curd,Fryums</td>
+                    <td>White Rice,Pulka,Veg Curry,Pakoda,Cued,Banana</td>
+                </tr>
+                
+                <tr>
+                    <td>TUESDAY</td>
+                    <td>Tomatao Upma,Poha</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>WEDNESDAY</td>
+                    <td>Aloo Paratha,Tomato Chutney,Curd</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>THURSDAY</td>
+                    <td>Masala Dosa,Chutney,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>FRIDAY</td>
+                    <td>Idli,Vada,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SATURDAY</td>
+                    <td>Utappam,Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SUNDAY</td>
+                    <td>Aloo Paratha,Tomatao Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+            </table>
+
+
+            <p><b>COST PER DAY:</b><u>-/115</u></p>
+
+            <hr>
+
+            <h6>SPECIAL ITEMS :</h6>
+            <table>
+                <tr>
+                 <th>DAY</th>
+                 <th>AFTERNOON</th>
+                 <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Butter Chicken Curry(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Chicken 65(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Ginger Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Chicken Fry(45/-)</td>
+                    <td>Boiled Egg(15/-)</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Chicken Masala(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Chilli Chicken(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Butter Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                
+            
+            </table>
+            <input type="checkbox" id="1" name="FOOD" value="SI">
+            <label for="1"> <b><i>include special item for payment</i></b> </label><br>
+
+            <hr>
+
+                
+            
+
+
+            <button>pay</button>
+        </div>
+
+        <div class="e">
+            <h3>IFC-B</h3>
+            <p>Mess exculsively for 1 year b-tech and m-tech students </p>
+            <p>Students are required to pay the mess fee on daily-basis </p>
+            <p><b>NOTE :-</b>Special items mentioned below are chargable</p>
+
+            <hr>
+
+
+            <h5>MENU :</h5>
+            <table>
+                <tr>
+                    <th>DAY</th>
+                    <th>MORNING</th>
+                    <th>AFTERNOON</th>
+                    <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Puri,Aloo Curry</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sambar,Curd,Fryums</td>
+                    <td>White Rice,Pulka,Veg Curry,Pakoda,Cued,Banana</td>
+                </tr>
+                
+                <tr>
+                    <td>TUESDAY</td>
+                    <td>Tomatao Upma,Poha</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>WEDNESDAY</td>
+                    <td>Aloo Paratha,Tomato Chutney,Curd</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>THURSDAY</td>
+                    <td>Masala Dosa,Chutney,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>FRIDAY</td>
+                    <td>Idli,Vada,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SATURDAY</td>
+                    <td>Utappam,Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SUNDAY</td>
+                    <td>Aloo Paratha,Tomatao Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+            </table>
+
+            <p><b>COST PER DAY:</b><u>-/115</u></p>
+
+            <hr>
+
+            <h6>SPECIAL ITEMS :</h6>
+            <table>
+                <tr>
+                 <th>DAY</th>
+                 <th>AFTERNOON</th>
+                 <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Butter Chicken Curry(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Chicken 65(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Ginger Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Chicken Fry(45/-)</td>
+                    <td>Boiled Egg(15/-)</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Chicken Masala(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Chilli Chicken(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Butter Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                
+            
+            </table>
+            <input type="checkbox" id="1" name="FOOD" value="SI">
+            <label for="1"> <b><i>include special item for payment</i></b> </label><br>
+
+            <hr>
+
+            <button>pay</button>
+
+        </div>
+
+        <div class="f">
+            <h4>PRIYADARSHNI HALL</h4>
+            <p>Mess exculsively for 1 year b-tech and m-tech students </p>
+            <p>Students are required to pay the mess fee on daily-basis </p>
+            <p><b>NOTE :-</b>Special items mentioned below are chargable</p>
+
+            <hr>
+
+
+            <h5>MENU :</h5>
+            <table>
+                <tr>
+                    <th>DAY</th>
+                    <th>MORNING</th>
+                    <th>AFTERNOON</th>
+                    <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Puri,Aloo Curry</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sambar,Curd,Fryums</td>
+                    <td>White Rice,Pulka,Veg Curry,Pakoda,Cued,Banana</td>
+                </tr>
+                
+                <tr>
+                    <td>TUESDAY</td>
+                    <td>Tomatao Upma,Poha</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>WEDNESDAY</td>
+                    <td>Aloo Paratha,Tomato Chutney,Curd</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>THURSDAY</td>
+                    <td>Masala Dosa,Chutney,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>FRIDAY</td>
+                    <td>Idli,Vada,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SATURDAY</td>
+                    <td>Utappam,Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SUNDAY</td>
+                    <td>Aloo Paratha,Tomatao Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+            </table>
+
+            <p><b>COST PER DAY:</b><u>-/115</u></p>
+
+            <hr>
+
+            <h6>SPECIAL ITEMS :</h6>
+            <table>
+                <tr>
+                 <th>DAY</th>
+                 <th>AFTERNOON</th>
+                 <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Butter Chicken Curry(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Chicken 65(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Ginger Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Chicken Fry(45/-)</td>
+                    <td>Boiled Egg(15/-)</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Chicken Masala(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Chilli Chicken(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Butter Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                
+            
+            </table>
+            <input type="checkbox" id="1" name="FOOD" value="SI">
+            <label for="1"> <b><i>include special item for payment</i></b> </label><br>
+
+            <hr>
+
+            <button>pay</button>
+
+        </div>
+
+        <div class="g">
+            <h3>IFC-C</h3>
+            <p>Mess exculsively for 1 year b-tech and m-tech students </p>
+            <p>Students are required to pay the mess fee on daily-basis </p>
+            <p><b>NOTE :-</b>Special items mentioned below are chargable</p>
+
+            <hr>
+
+
+
+            <h5>MENU :</h5>
+            <table>
+                <tr>
+                    <th>DAY</th>
+                    <th>MORNING</th>
+                    <th>AFTERNOON</th>
+                    <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Puri,Aloo Curry</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sambar,Curd,Fryums</td>
+                    <td>White Rice,Pulka,Veg Curry,Pakoda,Cued,Banana</td>
+                </tr>
+                
+                <tr>
+                    <td>TUESDAY</td>
+                    <td>Tomatao Upma,Poha</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>WEDNESDAY</td>
+                    <td>Aloo Paratha,Tomato Chutney,Curd</td>
+                    <td>White Rice,Chapathi,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>THURSDAY</td>
+                    <td>Masala Dosa,Chutney,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>FRIDAY</td>
+                    <td>Idli,Vada,Sambar</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SATURDAY</td>
+                    <td>Utappam,Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+                <tr>
+                    <td>SUNDAY</td>
+                    <td>Aloo Paratha,Tomatao Chutney</td>
+                    <td>Veg Biryani,Pulka,Veg Curry,Sweet,Raitha,</td>
+                    <td>White Rice,Chapathi,Shahi Pneer,Sambar,Papad,Salad</td>
+                </tr>
+            </table>
+
+            <p><b>COST PER DAY:</b><u>-/115</u></p>
+
+            <hr>
+
+            <h6>SPECIAL ITEMS :</h6>
+            <table>
+                <tr>
+                 <th>DAY</th>
+                 <th>AFTERNOON</th>
+                 <th>NIGHT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Butter Chicken Curry(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Chicken 65(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Ginger Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Chicken Fry(45/-)</td>
+                    <td>Boiled Egg(15/-)</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Chicken Masala(45/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Chilli Chicken(50/-)</td>
+                    <td>Egg Masala(25/-)</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Butter Chicken(50/-)</td>
+                    <td>Egg Burji(20/-)</td>
+                </tr>
+                
+            
+            </table>
+            <input type="checkbox" id="1" name="FOOD" value="SI">
+            <label for="1"> <b><i>include special item for payment</i></b> </label><br>
+            <hr>
+
+            <button>pay</button>
+
+        </div>
+
+        <div class="i">
+            <h1>gallery</h1>
+            <img src="WhatsApp Image 2022-04-14 at 9.55.41 PM.jpeg" alt="" >
+        </div>
+
+        
+    </body>
+</html>
